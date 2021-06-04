@@ -15,4 +15,9 @@ public class TestController {
     public String test3(){
         return "3333";
     }
+
+    @RequestMapping("/test2")
+    public String test2(){
+        return "2222";
+    }
 }
